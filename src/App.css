@@ -1,0 +1,89 @@
+body{
+  font-family: "Montserrat";
+  background-color: #9D9D9D;
+
+}
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.App-header{
+  position: fixed;
+  z-index: 2;
+}
+#logo{
+  position: absolute;
+  color: white;
+  margin: 24px;
+  font-size: 26px;
+  
+}
+
+.Nav{
+  top:0;
+   background-color:#202020;
+   color:white;
+   width: 100vw;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   vertical-align: middle;
+  }
+.NavIcons{
+  border-radius: 20px;
+  background-color: #202020; 
+   padding-top:0.38em;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition:0.5s;
+  color: white;
+}
+
+.NavIcons:hover{
+  opacity: 0.7;
+}
+#doc{
+  overflow-x: scroll;
+  border: solid 2px;
+  margin-top:9em;
+  margin-bottom:4em;
+  z-index: 1;
+}
+
+#pg{
+  padding:15px;
+}
+@media screen and (max-width:600px) {
+  #logo{
+    font-size:20px;
+    margin:30px;
+ 
+  } 
+ 
+  .Nav{
+  font-size: 15px;
+  padding-top: 4px;
+    padding-right: 20px;
+    justify-content: end;
+  }
+}
+@media screen and (max-width:400px) {
+  #logo{
+    font-size:20px;
+    margin:30px;
+    margin-left: 100px;
+  }
+  #zoom{
+    display: none;
+  }
+ 
+ 
+  .Nav{
+    margin: 0;
+    padding-right: 50px;
+    justify-content: end;
+  }
+}
