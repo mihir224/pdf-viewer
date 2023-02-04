@@ -1,0 +1,56 @@
+body{
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    background-color: #9D9D9D;
+    margin: 0;
+}
+#navHome{
+    background-color:#202020;
+    width: 100vw;
+    text-align: center;
+}
+#labelTxt{
+    font-weight: 500;
+}
+#navHome>a{
+    text-decoration: none;
+    color: white;
+}
+.Icon{
+    font-size: 34px;
+    padding-right:10px;
+    padding-bottom: 24px;
+}
+#inputForm{
+    margin-top: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+label:hover{
+    opacity: 0.7;
+}
+button{
+    border-radius: 5px;
+    border: 6px solid transparent;
+    background-color: #202020;
+    color: white;
+    font-family: "Montserrat";
+    font-weight:500;
+    font-size: 14px;
+    cursor: pointer;
+    transition:0.2s;
+}
+button:hover{
+    opacity: 0.7;
+}
+input{
+   display: none;
+}
+label{
+    font-size: 17px;
+    transition: 0.2s;
+    cursor: pointer;
+}
