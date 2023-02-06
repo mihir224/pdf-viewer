@@ -1,0 +1,28 @@
+#sample{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#navHome{
+    background-color:#202020;
+    width: 100vw;
+    }
+  a{
+        text-decoration: none;
+        color: white;
+    }
+    #fileList{
+        color: #202020;
+    }
+#fileList>ul{
+    text-align: center;
+    list-style: none;
+    font-weight:bold;
+    padding-left: 0;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+

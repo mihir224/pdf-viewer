@@ -1,7 +1,6 @@
 body{
   font-family: "Montserrat";
   background-color: #9D9D9D;
-
 }
 .App{
   display: flex;
@@ -13,17 +12,19 @@ body{
   position: fixed;
   z-index: 2;
 }
+
+
 #logo{
   position: absolute;
   color: white;
   margin: 24px;
-  font-size: 26px; 
+  font-size: 26px;
 }
 
 .Nav{
   top:0;
+  color:white;
    background-color:#202020;
-   color:white;
    width: 100vw;
    display: flex;
    text-align: center;
@@ -44,11 +45,11 @@ body{
 .NavIcons:hover{
   opacity: 0.7;
 }
-#doc{
+
+.Pdf-container{
   overflow-x: scroll;
   border: solid 2px;
-  margin-top:9em;
-  margin-bottom:4em;
+  margin-top:5em;
   z-index: 1;
 }
 
@@ -86,3 +87,4 @@ body{
     justify-content: end;
   }
 }
+
