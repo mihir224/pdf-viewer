@@ -10,7 +10,7 @@ In the project folder, run:
 to install the required packages
 
 Then, run:
-### `npm start`
-to run the app locally
+### `npm run dev`
+to start both the express and react servers simultaneously and run the app locally
 
 
